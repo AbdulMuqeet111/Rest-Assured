@@ -12,6 +12,6 @@ your-test-directory> mvn -Dtest=tests.TestUserPosts test
 
 You can also directly execute testng.xml for running current tests
 
-Test reports are generated in directory `test-output/ExtentReportsTestNG/` after execution.
+Test reports are generated in directory `test-output/ExtentReportsTestNG/` after execution. You'll need to run testng.xml to generate the test reports.
 
 In case of failure, Testcases are automatically retried once using retryAnalyzer.
